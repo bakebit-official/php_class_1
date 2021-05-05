@@ -1,0 +1,13 @@
+body{
+    background-color: #ccc;
+}
+.container{
+    margin:50px 150px;
+    width: 80%;
+    background-color: blue;
+    color: #fff;
+    height: 500px;
+}
+.container h1{
+    text-align: center;
+}
