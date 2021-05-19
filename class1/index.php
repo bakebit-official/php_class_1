@@ -1,22 +1,82 @@
 <?php 
 
+$num = 10;
 
-$nipa = array();
 
-$nipa = [
-            "Shahana"=>20,
-            "Shajjad"=>[
-                "BMW"=>6,
-                "Mar"=>10
-            ],
-            "Riza"=>[20,15,25]
-        ];
+{
+    $num = 20;
+    echo $num;
 
-        echo "<br>";
-echo $nipa["Riza"][1];
 
+}
 echo "<br>";
-echo $nipa["Shajjad"]["Mar"];
+echo $num;
+
+// if($num<20){
+//     echo "Smaller than 20";
+// }elseif($num == 20 ){
+//     echo "Equal 20";
+// }
+// elseif($num>20){
+//     echo "grater than 20";
+// }else{
+//     echo "Kaw ke khuje pai nai";
+// }
+
+// echo "<br>";
+// echo " I am outside ";
+// if($num%2!=0){
+//     echo "আমি বিজোড় সংখ্যা";
+// }
+
+
+
+// $nahar = 20;
+
+// true = 1
+// false = 0
+
+// $x = 7;
+// $y = 5;
+
+// $mod = $x%$y;
+
+// echo $mod;
+
+// if($nahar >= 20){
+//     echo " আমাকে ঢুকতে দিছে";
+// }else{
+//     echo " আমাকে ঢুকতে দেয় না :'( ";
+// }
+
+
+
+// echo "<br>";
+// echo " আমি বাইরে";
+
+// if($nahar > 20){
+//     echo "I am greater than 20";
+// }else{
+//     echo "I am smaller than or equal 20";
+// }
+
+
+// $nipa = array();
+
+// $nipa = [
+//             "Shahana"=>20,
+//             "Shajjad"=>[
+//                 "BMW"=>6,
+//                 "Mar"=>10
+//             ],
+//             "Riza"=>[20,15,25]
+//         ];
+
+//         echo "<br>";
+// echo $nipa["Riza"][1];
+
+// echo "<br>";
+// echo $nipa["Shajjad"]["Mar"];
 
 /* Operators */
 // $motein = array(); // array data type
